@@ -1,0 +1,96 @@
+.main {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    background: linear-gradient(
+        to bottom right,
+        rgb(162, 217, 255),
+        rgb(70, 170, 255)
+    );
+    overflow-y: scroll;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uploadTextImage {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0, 136, 231);
+    -webkit-text-stroke: 2px white;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.photoContent {
+    box-sizing: border-box;
+    background: white;
+    border-radius: 8px;
+    width: 100%;
+    height: calc(100% - 80px - 45px - 90px);
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imagePicker {
+    /*background: #108ee9;*/
+}
+.addPhotoButton {
+    width: 150px !important;
+    height: 150px !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed #a6c1dc;
+}
+.upload {
+    width: 250px !important;
+    height: 250px !important;
+}
+.addPhotoIcon {
+    font-size: 48px;
+    color: #a6c1dc;
+}
+
+.photoItemTitle {
+    line-height: 50px;
+    height: 50px;
+    /*background: #108ee9;*/
+    text-align: center;
+    color: #a6c1dc;
+    font-size: 20px;
+}
+
+.pictureType {
+    border-radius: 4px;
+    padding: 4px;
+    background: white;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.commitButton {
+    background: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #1f8ad8;
+    font-size: 22px;
+    cursor: pointer;
+}

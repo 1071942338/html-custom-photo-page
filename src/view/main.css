@@ -1,0 +1,10 @@
+.ant-upload.ant-upload-select-picture-card {
+    width: 250px !important;
+    height: 250px !important;
+    border: 2px dashed #a6c1dc !important;
+
+}
+.ant-upload-list-picture-card-container {
+    width: 250px !important;
+    height: 250px !important;
+}
